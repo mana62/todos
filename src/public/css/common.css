@@ -1,0 +1,15 @@
+.header {
+    background: #000;
+}
+
+.header__inner {
+    max-width: 1230px;
+    padding: 30px 60px;
+}
+
+.header-ttl {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
