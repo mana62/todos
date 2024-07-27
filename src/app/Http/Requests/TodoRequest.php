@@ -31,7 +31,7 @@ class TodoRequest extends FormRequest
     public function messages()
     {
         return [
-            'content.requires' => '内容の入力は必須です',
+            'content.required' => '内容の入力は必須です',
             'content.string' => '文字列型で入力してください',
             'content.max' => '20文字以内で記入してください',
         ];

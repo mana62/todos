@@ -13,20 +13,21 @@
 
 .content {
     margin: 0 auto;
-    padding: 60px 15px;
-    max-width: 1230px;
+    padding: 90px 15px;
+    max-width:  1230px;
 }
 
 .form-content {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
-    width: 70%;
     text-align: center;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .contents {
     width: 80%;
+    margin: 50px 0;
 }
 
 .form-input {
@@ -38,11 +39,12 @@
 }
 
 .button {
-    width: 80px;
+    width: 90px;
+    margin: 50px 0;
 }
 
 .form-submit {
-    padding: 10px;
+    padding: 10px 0;
     width: 100%;
     font-size: 20px;
     font-weight: bold;
@@ -52,6 +54,7 @@
     cursor: pointer;
     text-align: center;
     border: none;
+    margin-left: 0;
 }
 
 .lists {
@@ -73,7 +76,7 @@
 }
 
 .lists-content-ttl:first-of-type {
-    padding: 12px;
+    padding: 15px;
     width: 90%;
 }
 
@@ -91,7 +94,7 @@
 
 .form-content {
     width: 70%;
-    line-height: 50%;
+    line-height: 90%;
 }
 
 .update-form__item-input {
@@ -100,6 +103,7 @@
     border-radius: 5px;
     text-align: center;
     outline: none;
+    margin-top: 3px;
 }
 
 .form-content-update {
@@ -112,8 +116,9 @@
     color: #fff;
     border: none;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .form-list-delete {
@@ -126,10 +131,11 @@
     width: 100%;
     border-radius: 5px;
     border: none;
-    padding: 10px;
+    padding: 5px;
     font-size: 20px;
     font-weight: bold;
-    margin-left: 10px;
+    margin-left: 20px;
+    cursor: pointer;
 }
 
 .message-error ul {
