@@ -1,16 +1,30 @@
 .header {
     background: #000;
-}
-
-.header__inner {
-    max-width: 1230px;
-    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 0 30px;
+    background-color: #000;
 }
 
 .header-ttl {
-    color: #fff;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     cursor: pointer;
+    color: #fff;
+    margin-left: 50px;
+}
+
+
+.nav-list {
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    padding-right: 20px;
+    margin-right: 40px;
+    list-style:none;
 }

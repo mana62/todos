@@ -1,8 +1,12 @@
 .message-success {
-    max-width: 1500px;
     background: #d1e7dd;
     padding: 10px 55px;
     border: 2px solid #badbcc;
+}
+
+.message-error ul {
+    margin: 0;
+    font-weight: bold;
 }
 
 .message-content {
@@ -13,8 +17,14 @@
 
 .content {
     margin: 0 auto;
-    padding: 60px 15px;
+    padding: 30px 15px;
     max-width: 1230px;
+}
+
+.todo-content__title {
+    font-size: 23px;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .form-content {
@@ -25,24 +35,35 @@
     text-align: center;
 }
 
-.contents {
-    width: 80%;
+.form-content__item {
+    width: 70%;
+    display: flex;
 }
 
-.form-input {
-    width: 100%;
-    height: 50px;
+.form-content__item-input {
+    width: 70%;
+    height: 40px;
     border: 2px solid #000;
     border-radius: 5px;
     padding: 10px;
+    margin-right: 10px;
+}
+
+.form-content__item-select {
+    width: 30%;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    appearance: none;
 }
 
 .button {
-    width: 80px;
+    width: 20%;
 }
 
 .form-submit {
-    padding: 10px;
+    padding: 7px;
     width: 100%;
     font-size: 20px;
     font-weight: bold;
@@ -50,47 +71,81 @@
     border-radius: 5px;
     background: #000;
     cursor: pointer;
-    text-align: center;
     border: none;
+    height: 40px;
 }
 
-.lists {
+.form-search {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form-search__item {
+    width: 70%;
+    display: flex;
+}
+
+.form-search__item-input {
+    width: 70%;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.form-search__item-select {
+    width: 30%;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    appearance: none;
+}
+
+.todo-table {
     margin: 30px auto;
     width: 70%;
-    text-align: left;
+    text-align: center;
 }
 
-.lists-content {
+.todo-table__inner {
     width: 100%;
 }
 
-.lists-ttl {
-    padding: 12px;
+.todo-table__row {
+    border: none;
+}
+
+.todo-table__header {
+    padding: 11px;
+    width: 30%;
     text-align: left;
     font-weight: bold;
     color: #000;
-    font-size: 40px;
+    font-size: 25px;
 }
 
-.lists-content-ttl:first-of-type {
-    padding: 12px;
+.todo-table__header-span {
+    margin-right: 30%;
+}
+
+.todo-table__item:first-of-type {
+    padding: 10px;
     width: 90%;
 }
 
-.list-ttl {
-    color: #000;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.form-list {
+.update-form {
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
-.form-content {
-    width: 70%;
+.update-form__item {
+    width: 40%;
     line-height: 50%;
 }
 
@@ -102,11 +157,16 @@
     outline: none;
 }
 
-.form-content-update {
-    width: 80px;
+.update-form__item-p {
+    font-size: 13px;
+    text-align: left;
 }
 
-.form-submits {
+.update-form__button {
+    width: 50px;
+}
+
+.update-form__button-submit {
     width: 100%;
     background: #0000ff;
     color: #fff;
@@ -114,13 +174,14 @@
     border-radius: 5px;
     padding: 10px;
     font-size: 20px;
+    text-align: center;
 }
 
-.form-list-delete {
-    width: 80px;
+.delete-form__button {
+    width: 50px;
 }
 
-.delete-submit {
+.delete-form__button-submit {
     background: #ff0000;
     color: #fff;
     width: 100%;
@@ -130,9 +191,5 @@
     font-size: 20px;
     font-weight: bold;
     margin-left: 10px;
-}
-
-.message-error ul {
-    margin: 0;
-    font-weight: bold;
+    text-align: center;
 }

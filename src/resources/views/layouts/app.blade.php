@@ -13,6 +13,13 @@
         <div class="header__inner">
             <a class="header-ttl" href="index.blade.php">Todo</a>
         </div>
+        <nav>
+            <ul class="header-nav">
+                <li class="header-nav__item">
+            <a class="nav-list" href="/categories">カテゴリ一覧</a>
+            </li>
+            </ul>
+        </nav>
     </header>
     <main>
         @yield('content')
